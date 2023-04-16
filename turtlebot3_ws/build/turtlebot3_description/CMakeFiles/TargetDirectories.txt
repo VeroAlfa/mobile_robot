@@ -1,9 +1,0 @@
-/home/veroalfa/turtlebot3_ws/build/turtlebot3_description/CMakeFiles/install/strip.dir
-/home/veroalfa/turtlebot3_ws/build/turtlebot3_description/CMakeFiles/install/local.dir
-/home/veroalfa/turtlebot3_ws/build/turtlebot3_description/CMakeFiles/install.dir
-/home/veroalfa/turtlebot3_ws/build/turtlebot3_description/CMakeFiles/list_install_components.dir
-/home/veroalfa/turtlebot3_ws/build/turtlebot3_description/CMakeFiles/rebuild_cache.dir
-/home/veroalfa/turtlebot3_ws/build/turtlebot3_description/CMakeFiles/edit_cache.dir
-/home/veroalfa/turtlebot3_ws/build/turtlebot3_description/CMakeFiles/test.dir
-/home/veroalfa/turtlebot3_ws/build/turtlebot3_description/CMakeFiles/turtlebot3_description_uninstall.dir
-/home/veroalfa/turtlebot3_ws/build/turtlebot3_description/CMakeFiles/uninstall.dir
