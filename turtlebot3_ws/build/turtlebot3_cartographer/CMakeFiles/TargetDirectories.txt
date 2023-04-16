@@ -1,9 +1,0 @@
-/home/veroalfa/turtlebot3_ws/build/turtlebot3_cartographer/CMakeFiles/install/strip.dir
-/home/veroalfa/turtlebot3_ws/build/turtlebot3_cartographer/CMakeFiles/install/local.dir
-/home/veroalfa/turtlebot3_ws/build/turtlebot3_cartographer/CMakeFiles/install.dir
-/home/veroalfa/turtlebot3_ws/build/turtlebot3_cartographer/CMakeFiles/list_install_components.dir
-/home/veroalfa/turtlebot3_ws/build/turtlebot3_cartographer/CMakeFiles/rebuild_cache.dir
-/home/veroalfa/turtlebot3_ws/build/turtlebot3_cartographer/CMakeFiles/edit_cache.dir
-/home/veroalfa/turtlebot3_ws/build/turtlebot3_cartographer/CMakeFiles/test.dir
-/home/veroalfa/turtlebot3_ws/build/turtlebot3_cartographer/CMakeFiles/turtlebot3_cartographer_uninstall.dir
-/home/veroalfa/turtlebot3_ws/build/turtlebot3_cartographer/CMakeFiles/uninstall.dir
