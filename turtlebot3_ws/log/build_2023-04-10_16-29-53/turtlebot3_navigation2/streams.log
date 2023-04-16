@@ -1,0 +1,54 @@
+[0.203s] Invoking command in '/home/veroalfa/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/veroalfa/turtlebot3_ws/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2
+[1.758s] -- The C compiler identification is GNU 9.4.0
+[1.759s] -- The CXX compiler identification is GNU 9.4.0
+[1.760s] -- Check for working C compiler: /usr/bin/cc
+[1.760s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.761s] -- Detecting C compiler ABI info
+[1.761s] -- Detecting C compiler ABI info - done
+[1.762s] -- Detecting C compile features
+[1.767s] -- Detecting C compile features - done
+[1.794s] -- Check for working CXX compiler: /usr/bin/c++
+[2.423s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.425s] -- Detecting CXX compiler ABI info
+[2.962s] -- Detecting CXX compiler ABI info - done
+[3.035s] -- Detecting CXX compile features
+[3.036s] -- Detecting CXX compile features - done
+[3.046s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.246s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.246s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.566s] -- Configuring done
+[5.576s] -- Generating done
+[5.584s] -- Build files have been written to: /home/veroalfa/turtlebot3_ws/build/turtlebot3_navigation2
+[5.632s] Invoked command in '/home/veroalfa/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/veroalfa/turtlebot3_ws/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2
+[5.649s] Invoking command in '/home/veroalfa/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/veroalfa/turtlebot3_ws/build/turtlebot3_navigation2 -- -j8 -l8
+[5.920s] Invoked command in '/home/veroalfa/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/veroalfa/turtlebot3_ws/build/turtlebot3_navigation2 -- -j8 -l8
+[6.304s] Invoking command in '/home/veroalfa/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/veroalfa/turtlebot3_ws/build/turtlebot3_navigation2
+[6.362s] -- Install configuration: ""
+[6.363s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch
+[6.363s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[6.363s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map
+[6.363s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.pgm
+[6.364s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.yaml
+[6.364s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param
+[6.364s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[6.368s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[6.369s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[6.370s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz
+[6.370s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[6.370s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/lib/turtlebot3_navigation2/navigate_action.py
+[6.372s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[6.373s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[6.373s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[6.373s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[6.373s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[6.374s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[6.374s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[6.374s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[6.374s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[6.375s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[6.375s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[6.375s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[6.375s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[6.376s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[6.376s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[6.396s] Invoked command in '/home/veroalfa/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/veroalfa/turtlebot3_ws/build/turtlebot3_navigation2

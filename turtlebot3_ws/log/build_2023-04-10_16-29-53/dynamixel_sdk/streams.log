@@ -1,0 +1,74 @@
+[0.321s] Invoking command in '/home/veroalfa/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/veroalfa/turtlebot3_ws/src/DynamixelSDK/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/veroalfa/turtlebot3_ws/install/dynamixel_sdk
+[1.838s] -- The C compiler identification is GNU 9.4.0
+[1.838s] -- The CXX compiler identification is GNU 9.4.0
+[1.838s] -- Check for working C compiler: /usr/bin/cc
+[1.839s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.839s] -- Detecting C compiler ABI info
+[2.128s] -- Detecting C compiler ABI info - done
+[2.244s] -- Detecting C compile features
+[2.246s] -- Detecting C compile features - done
+[2.272s] -- Check for working CXX compiler: /usr/bin/c++
+[2.797s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.801s] -- Detecting CXX compiler ABI info
+[3.365s] -- Detecting CXX compiler ABI info - done
+[3.466s] -- Detecting CXX compile features
+[3.469s] -- Detecting CXX compile features - done
+[3.503s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.834s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.836s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.350s] -- Configuring done
+[6.416s] -- Generating done
+[6.416s] -- Build files have been written to: /home/veroalfa/turtlebot3_ws/build/dynamixel_sdk
+[6.537s] Invoked command in '/home/veroalfa/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/veroalfa/turtlebot3_ws/src/DynamixelSDK/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/veroalfa/turtlebot3_ws/install/dynamixel_sdk
+[6.540s] Invoking command in '/home/veroalfa/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/veroalfa/turtlebot3_ws/build/dynamixel_sdk -- -j8 -l8
+[6.752s] [35m[1mScanning dependencies of target dynamixel_sdk[0m
+[6.841s] [ 10%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[7.626s] [ 20%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[7.850s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[8.180s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[10.848s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[13.248s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[15.202s] [ 70%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[17.042s] [ 80%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[17.964s] [ 90%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[18.676s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[19.058s] [100%] Built target dynamixel_sdk
+[19.102s] Invoked command in '/home/veroalfa/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/veroalfa/turtlebot3_ws/build/dynamixel_sdk -- -j8 -l8
+[19.352s] Invoking command in '/home/veroalfa/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/veroalfa/turtlebot3_ws/build/dynamixel_sdk
+[19.389s] -- Install configuration: ""
+[19.389s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/include/
+[19.389s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk
+[19.395s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[19.397s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[19.399s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[19.399s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[19.399s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[19.400s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[19.400s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[19.400s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[19.400s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[19.401s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[19.401s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[19.401s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[19.401s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[19.402s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[19.403s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[19.404s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[19.409s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[19.411s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[19.412s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[19.414s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[19.415s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[19.416s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[19.418s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[19.426s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[19.426s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[19.427s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[19.427s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[19.428s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[19.428s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.428s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[19.429s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[19.429s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[19.429s] -- Installing: /home/veroalfa/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[19.453s] Invoked command in '/home/veroalfa/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/veroalfa/turtlebot3_ws/build/dynamixel_sdk

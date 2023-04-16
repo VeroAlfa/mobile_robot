@@ -1,0 +1,221 @@
+[0.043s] Invoking command in '/home/veroalfa/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/home/veroalfa/turtlebot3_ws/install/turtlebot3_description:/home/veroalfa/turtlebot3_ws/install/turtlebot3:/home/veroalfa/turtlebot3_ws/install/turtlebot3_simulations:/home/veroalfa/turtlebot3_ws/install/turtlebot3_bringup:/home/veroalfa/turtlebot3_ws/install/turtlebot3_node:/home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2:/home/veroalfa/turtlebot3_ws/install/turtlebot3_fake_node:/home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs:/home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo:/home/veroalfa/turtlebot3_ws/install/turtlebot3_cartographer:/home/veroalfa/turtlebot3_ws/install/dynamixel_sdk_examples:/home/veroalfa/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/veroalfa/turtlebot3_ws/install/dynamixel_sdk:/home/veroalfa/model_ws/install/xicro_pkg:/home/veroalfa/model_ws/install/xicro_interfaces:/home/veroalfa/model_ws/install/calibration_interfaces:/home/veroalfa/model_ws/install/calibration_gen:/home/veroalfa/model_ws/install/calibration:/home/veroalfa/lab4_ws/install/fra333_lab4_17_1_interfaces:/home/veroalfa/lab4_ws/install/fra333_lab4_17_1:/home/veroalfa/lab3ex_ws/install/xicro_pkg:/home/veroalfa/lab3ex_ws/install/xicro_interfaces:/home/veroalfa/lab3ex_ws/install/fra333_lab3_17_1:/home/veroalfa/lab2ex_ws/install/fra333_lab1:/home/veroalfa/lab1_ws/install/lab1_interfaces:/home/veroalfa/lab1_ws/install/fra333_lab1_17:/home/veroalfa/lab2_ws/install/dummy_kinematics_interfaces:/home/veroalfa/lab2_ws/install/dummy_kinematics:/home/veroalfa/lab2_ws/install/dummy_description:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/veroalfa/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo
+[0.072s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.117s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.499s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.605s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.657s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.660s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.667s] -- Searching for dependencies of ignition-math6
+[0.670s] -- Looking for OGRE...
+[0.677s] -- Found Ogre Ghadamon (1.9.0)
+[0.678s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.694s] -- Looking for OGRE_Paging...
+[0.694s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.694s] -- Looking for OGRE_Terrain...
+[0.695s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.695s] -- Looking for OGRE_Property...
+[0.695s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.695s] -- Looking for OGRE_RTShaderSystem...
+[0.695s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.696s] -- Looking for OGRE_Volume...
+[0.696s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.696s] -- Looking for OGRE_Overlay...
+[0.696s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.064s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.065s] -- Looking for ignition-transport8 -- found version 8.3.0
+[1.067s] -- Searching for dependencies of ignition-transport8
+[1.112s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.133s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.142s] -- Checking for module 'libzmq >= 4'
+[1.177s] --   Found libzmq , version 4.3.2
+[1.268s] -- Checking for module 'uuid'
+[1.294s] --   Found uuid, version 2.34.0
+[1.365s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.365s] -- Searching for dependencies of ignition-msgs5
+[1.408s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.417s] -- Checking for module 'tinyxml2'
+[1.452s] --   Found tinyxml2, version 6.2.0
+[1.516s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.516s] -- Looking for ignition-common3 -- found version 3.14.2
+[1.517s] -- Searching for dependencies of ignition-common3
+[1.517s] -- Looking for dlfcn.h - found
+[1.518s] -- Looking for libdl - found
+[1.537s] -- Searching for <ignition-common3> component [graphics]
+[1.538s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[1.539s] -- Searching for dependencies of ignition-common3-graphics
+[1.540s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.542s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[1.542s] -- Searching for dependencies of ignition-fuel_tools4
+[1.594s] -- Checking for module 'jsoncpp'
+[1.620s] --   Found jsoncpp, version 1.7.4
+[1.688s] -- Checking for module 'libzip'
+[1.713s] --   Found libzip, version 1.5.1
+[1.769s] -- Looking for ignition-common3 -- found version 3.14.2
+[1.770s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.771s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.773s] -- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+[1.773s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.802s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.807s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.034s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.240s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.376s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.442s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.446s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.723s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.864s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[3.012s] -- Configuring done
+[3.053s] -- Generating done
+[3.056s] -- Build files have been written to: /home/veroalfa/turtlebot3_ws/build/turtlebot3_gazebo
+[3.068s] Invoked command in '/home/veroalfa/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/veroalfa/turtlebot3_ws/install/turtlebot3_description:/home/veroalfa/turtlebot3_ws/install/turtlebot3:/home/veroalfa/turtlebot3_ws/install/turtlebot3_simulations:/home/veroalfa/turtlebot3_ws/install/turtlebot3_bringup:/home/veroalfa/turtlebot3_ws/install/turtlebot3_node:/home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2:/home/veroalfa/turtlebot3_ws/install/turtlebot3_fake_node:/home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs:/home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo:/home/veroalfa/turtlebot3_ws/install/turtlebot3_cartographer:/home/veroalfa/turtlebot3_ws/install/dynamixel_sdk_examples:/home/veroalfa/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/veroalfa/turtlebot3_ws/install/dynamixel_sdk:/home/veroalfa/model_ws/install/xicro_pkg:/home/veroalfa/model_ws/install/xicro_interfaces:/home/veroalfa/model_ws/install/calibration_interfaces:/home/veroalfa/model_ws/install/calibration_gen:/home/veroalfa/model_ws/install/calibration:/home/veroalfa/lab4_ws/install/fra333_lab4_17_1_interfaces:/home/veroalfa/lab4_ws/install/fra333_lab4_17_1:/home/veroalfa/lab3ex_ws/install/xicro_pkg:/home/veroalfa/lab3ex_ws/install/xicro_interfaces:/home/veroalfa/lab3ex_ws/install/fra333_lab3_17_1:/home/veroalfa/lab2ex_ws/install/fra333_lab1:/home/veroalfa/lab1_ws/install/lab1_interfaces:/home/veroalfa/lab1_ws/install/fra333_lab1_17:/home/veroalfa/lab2_ws/install/dummy_kinematics_interfaces:/home/veroalfa/lab2_ws/install/dummy_kinematics:/home/veroalfa/lab2_ws/install/dummy_description:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/veroalfa/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo
+[3.071s] Invoking command in '/home/veroalfa/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/home/veroalfa/turtlebot3_ws/install/turtlebot3_description:/home/veroalfa/turtlebot3_ws/install/turtlebot3:/home/veroalfa/turtlebot3_ws/install/turtlebot3_simulations:/home/veroalfa/turtlebot3_ws/install/turtlebot3_bringup:/home/veroalfa/turtlebot3_ws/install/turtlebot3_node:/home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2:/home/veroalfa/turtlebot3_ws/install/turtlebot3_fake_node:/home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs:/home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo:/home/veroalfa/turtlebot3_ws/install/turtlebot3_cartographer:/home/veroalfa/turtlebot3_ws/install/dynamixel_sdk_examples:/home/veroalfa/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/veroalfa/turtlebot3_ws/install/dynamixel_sdk:/home/veroalfa/model_ws/install/xicro_pkg:/home/veroalfa/model_ws/install/xicro_interfaces:/home/veroalfa/model_ws/install/calibration_interfaces:/home/veroalfa/model_ws/install/calibration_gen:/home/veroalfa/model_ws/install/calibration:/home/veroalfa/lab4_ws/install/fra333_lab4_17_1_interfaces:/home/veroalfa/lab4_ws/install/fra333_lab4_17_1:/home/veroalfa/lab3ex_ws/install/xicro_pkg:/home/veroalfa/lab3ex_ws/install/xicro_interfaces:/home/veroalfa/lab3ex_ws/install/fra333_lab3_17_1:/home/veroalfa/lab2ex_ws/install/fra333_lab1:/home/veroalfa/lab1_ws/install/lab1_interfaces:/home/veroalfa/lab1_ws/install/fra333_lab1_17:/home/veroalfa/lab2_ws/install/dummy_kinematics_interfaces:/home/veroalfa/lab2_ws/install/dummy_kinematics:/home/veroalfa/lab2_ws/install/dummy_description:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/veroalfa/turtlebot3_ws/build/turtlebot3_gazebo -- -j8 -l8
+[3.183s] [ 25%] Built target obstacle2
+[3.187s] [ 37%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[3.193s] [ 62%] Built target obstacle1
+[3.195s] [ 87%] Built target obstacles
+[3.688s] [100%] Built target turtlebot3_drive
+[3.707s] Invoked command in '/home/veroalfa/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/veroalfa/turtlebot3_ws/install/turtlebot3_description:/home/veroalfa/turtlebot3_ws/install/turtlebot3:/home/veroalfa/turtlebot3_ws/install/turtlebot3_simulations:/home/veroalfa/turtlebot3_ws/install/turtlebot3_bringup:/home/veroalfa/turtlebot3_ws/install/turtlebot3_node:/home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2:/home/veroalfa/turtlebot3_ws/install/turtlebot3_fake_node:/home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs:/home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo:/home/veroalfa/turtlebot3_ws/install/turtlebot3_cartographer:/home/veroalfa/turtlebot3_ws/install/dynamixel_sdk_examples:/home/veroalfa/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/veroalfa/turtlebot3_ws/install/dynamixel_sdk:/home/veroalfa/model_ws/install/xicro_pkg:/home/veroalfa/model_ws/install/xicro_interfaces:/home/veroalfa/model_ws/install/calibration_interfaces:/home/veroalfa/model_ws/install/calibration_gen:/home/veroalfa/model_ws/install/calibration:/home/veroalfa/lab4_ws/install/fra333_lab4_17_1_interfaces:/home/veroalfa/lab4_ws/install/fra333_lab4_17_1:/home/veroalfa/lab3ex_ws/install/xicro_pkg:/home/veroalfa/lab3ex_ws/install/xicro_interfaces:/home/veroalfa/lab3ex_ws/install/fra333_lab3_17_1:/home/veroalfa/lab2ex_ws/install/fra333_lab1:/home/veroalfa/lab1_ws/install/lab1_interfaces:/home/veroalfa/lab1_ws/install/fra333_lab1_17:/home/veroalfa/lab2_ws/install/dummy_kinematics_interfaces:/home/veroalfa/lab2_ws/install/dummy_kinematics:/home/veroalfa/lab2_ws/install/dummy_description:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/veroalfa/turtlebot3_ws/build/turtlebot3_gazebo -- -j8 -l8
+[3.770s] Invoking command in '/home/veroalfa/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/home/veroalfa/turtlebot3_ws/install/turtlebot3_description:/home/veroalfa/turtlebot3_ws/install/turtlebot3:/home/veroalfa/turtlebot3_ws/install/turtlebot3_simulations:/home/veroalfa/turtlebot3_ws/install/turtlebot3_bringup:/home/veroalfa/turtlebot3_ws/install/turtlebot3_node:/home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2:/home/veroalfa/turtlebot3_ws/install/turtlebot3_fake_node:/home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs:/home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo:/home/veroalfa/turtlebot3_ws/install/turtlebot3_cartographer:/home/veroalfa/turtlebot3_ws/install/dynamixel_sdk_examples:/home/veroalfa/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/veroalfa/turtlebot3_ws/install/dynamixel_sdk:/home/veroalfa/model_ws/install/xicro_pkg:/home/veroalfa/model_ws/install/xicro_interfaces:/home/veroalfa/model_ws/install/calibration_interfaces:/home/veroalfa/model_ws/install/calibration_gen:/home/veroalfa/model_ws/install/calibration:/home/veroalfa/lab4_ws/install/fra333_lab4_17_1_interfaces:/home/veroalfa/lab4_ws/install/fra333_lab4_17_1:/home/veroalfa/lab3ex_ws/install/xicro_pkg:/home/veroalfa/lab3ex_ws/install/xicro_interfaces:/home/veroalfa/lab3ex_ws/install/fra333_lab3_17_1:/home/veroalfa/lab2ex_ws/install/fra333_lab1:/home/veroalfa/lab1_ws/install/lab1_interfaces:/home/veroalfa/lab1_ws/install/fra333_lab1_17:/home/veroalfa/lab2_ws/install/dummy_kinematics_interfaces:/home/veroalfa/lab2_ws/install/dummy_kinematics:/home/veroalfa/lab2_ws/install/dummy_description:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/veroalfa/turtlebot3_ws/build/turtlebot3_gazebo
+[3.784s] -- Install configuration: ""
+[3.785s] -- Execute custom install script
+[3.785s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[3.801s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[3.816s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[3.832s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_autorace.launch.py
+[3.851s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[3.867s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[3.882s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[3.898s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[3.913s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[3.929s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_roball.launch.py
+[3.941s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[3.956s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/roball_world/model.config
+[3.973s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/roball_world/model.sdf
+[3.986s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/scripts/course.material
+[3.999s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/textures/course.png
+[4.012s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.config
+[4.024s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.sdf
+[4.036s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground/model.config
+[4.055s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground/model.sdf
+[4.069s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights/model.config
+[4.082s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights/model.sdf
+[4.096s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/model.config
+[4.112s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/scripts/traffic_bar.material
+[4.127s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/textures/traffic_bar.png
+[4.144s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/model.config
+[4.157s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/model.sdf
+[4.171s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/scripts/traffic_bar.material
+[4.185s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/textures/traffic_bar.png
+[4.200s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/model.config
+[4.215s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/model.sdf
+[4.231s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green/model.config
+[4.246s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green/model.sdf
+[4.261s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red/model.config
+[4.276s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red/model.sdf
+[4.291s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow/model.config
+[4.306s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow/model.sdf
+[4.322s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/scripts/traffic_parking.material
+[4.337s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/textures/traffic_parking.png
+[4.352s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/model.config
+[4.366s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/model.sdf
+[4.382s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/scripts/traffic_stop.material
+[4.397s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/textures/traffic_stop.png
+[4.412s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/model.config
+[4.427s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/model.sdf
+[4.442s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/scripts/tunnel.material
+[4.457s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/textures/tunnel.png
+[4.472s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/model.config
+[4.487s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/model.sdf
+[4.504s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles/model.config
+[4.519s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles/model.sdf
+[4.537s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall/model.config
+[4.551s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall/model.sdf
+[4.564s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/burger_base.dae
+[4.578s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/lds.dae
+[4.593s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/tire.dae
+[4.607s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[4.620s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[4.634s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[4.647s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[4.660s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[4.673s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[4.686s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[4.700s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[4.715s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[4.731s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[4.745s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[4.756s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[4.770s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[4.783s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+[4.797s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+[4.814s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+[4.828s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+[4.841s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[4.856s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[4.869s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[4.878s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[4.891s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/lds.dae
+[4.905s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/r200.dae
+[4.918s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/tire.dae
+[4.932s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/waffle_base.dae
+[4.947s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[4.962s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[4.977s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[4.991s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/lds.dae
+[5.006s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/tire.dae
+[5.021s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/waffle_pi_base.dae
+[5.036s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[5.052s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[5.066s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[5.080s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[5.094s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[5.109s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[5.124s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[5.138s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[5.152s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[5.169s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/burger.model
+[5.183s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle.model
+[5.198s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle_pi.model
+[5.213s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/roball_worlds/burger.model
+[5.228s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/roball_worlds/waffle.model
+[5.244s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/roball_worlds/waffle_pi.model
+[5.258s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/burger.model
+[5.273s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle.model
+[5.289s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle_pi.model
+[5.305s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/burger.model
+[5.317s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/waffle.model
+[5.332s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/waffle_pi.model
+[5.344s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/burger.model
+[5.358s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/waffle.model
+[5.371s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/waffle_pi.model
+[5.386s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/burger.model
+[5.400s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/waffle.model
+[5.419s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/waffle_pi.model
+[5.434s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/burger.model
+[5.448s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/waffle.model
+[5.464s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/waffle_pi.model
+[5.478s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/burger.model
+[5.494s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle.model
+[5.510s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle_pi.model
+[5.525s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/burger.model
+[5.542s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle.model
+[5.557s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle_pi.model
+[5.576s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[5.592s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[5.608s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[5.626s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[5.643s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[5.659s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[5.675s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[5.690s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[5.706s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[5.722s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[5.738s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[5.754s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[5.770s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[5.790s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.806s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.823s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[5.838s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[5.853s] -- Symlinking: /home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[5.877s] Invoked command in '/home/veroalfa/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/veroalfa/turtlebot3_ws/install/turtlebot3_description:/home/veroalfa/turtlebot3_ws/install/turtlebot3:/home/veroalfa/turtlebot3_ws/install/turtlebot3_simulations:/home/veroalfa/turtlebot3_ws/install/turtlebot3_bringup:/home/veroalfa/turtlebot3_ws/install/turtlebot3_node:/home/veroalfa/turtlebot3_ws/install/turtlebot3_navigation2:/home/veroalfa/turtlebot3_ws/install/turtlebot3_fake_node:/home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs:/home/veroalfa/turtlebot3_ws/install/turtlebot3_gazebo:/home/veroalfa/turtlebot3_ws/install/turtlebot3_cartographer:/home/veroalfa/turtlebot3_ws/install/dynamixel_sdk_examples:/home/veroalfa/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/veroalfa/turtlebot3_ws/install/dynamixel_sdk:/home/veroalfa/model_ws/install/xicro_pkg:/home/veroalfa/model_ws/install/xicro_interfaces:/home/veroalfa/model_ws/install/calibration_interfaces:/home/veroalfa/model_ws/install/calibration_gen:/home/veroalfa/model_ws/install/calibration:/home/veroalfa/lab4_ws/install/fra333_lab4_17_1_interfaces:/home/veroalfa/lab4_ws/install/fra333_lab4_17_1:/home/veroalfa/lab3ex_ws/install/xicro_pkg:/home/veroalfa/lab3ex_ws/install/xicro_interfaces:/home/veroalfa/lab3ex_ws/install/fra333_lab3_17_1:/home/veroalfa/lab2ex_ws/install/fra333_lab1:/home/veroalfa/lab1_ws/install/lab1_interfaces:/home/veroalfa/lab1_ws/install/fra333_lab1_17:/home/veroalfa/lab2_ws/install/dummy_kinematics_interfaces:/home/veroalfa/lab2_ws/install/dummy_kinematics:/home/veroalfa/lab2_ws/install/dummy_description:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/veroalfa/turtlebot3_ws/build/turtlebot3_gazebo

@@ -1,0 +1,384 @@
+[0.336s] Invoking command in '/home/veroalfa/turtlebot3_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/veroalfa/turtlebot3_ws/src/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs
+[1.867s] -- The C compiler identification is GNU 9.4.0
+[1.867s] -- The CXX compiler identification is GNU 9.4.0
+[1.868s] -- Check for working C compiler: /usr/bin/cc
+[1.868s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.868s] -- Detecting C compiler ABI info
+[2.347s] -- Detecting C compiler ABI info - done
+[2.476s] -- Detecting C compile features
+[2.478s] -- Detecting C compile features - done
+[2.488s] -- Check for working CXX compiler: /usr/bin/c++
+[3.097s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.101s] -- Detecting CXX compiler ABI info
+[3.675s] -- Detecting CXX compiler ABI info - done
+[3.855s] -- Detecting CXX compile features
+[3.863s] -- Detecting CXX compile features - done
+[3.881s] -- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)
+[4.079s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.081s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.283s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.337s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.877s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.162s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.641s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.110s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[8.199s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[8.444s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[9.675s] -- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[9.693s] -- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[9.709s] -- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[9.724s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[11.140s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.567s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.730s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[11.751s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[11.904s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[11.904s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.905s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[11.905s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[12.177s] -- Found PythonExtra: .so  
+[12.889s] -- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[12.906s] -- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[12.952s] -- Configuring done
+[13.287s] -- Generating done
+[13.301s] -- Build files have been written to: /home/veroalfa/turtlebot3_ws/build/turtlebot3_msgs
+[13.365s] Invoked command in '/home/veroalfa/turtlebot3_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/veroalfa/turtlebot3_ws/src/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs
+[13.368s] Invoking command in '/home/veroalfa/turtlebot3_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/veroalfa/turtlebot3_ws/build/turtlebot3_msgs -- -j8 -l8
+[13.575s] [35m[1mScanning dependencies of target turtlebot3_msgs__cpp[0m
+[13.613s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[18.095s] [  1%] Built target turtlebot3_msgs__cpp
+[18.154s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[23.055s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_generator_c[0m
+[23.109s] [  4%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/sensor_state__functions.c.o[0m
+[23.258s] [  5%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/srv/detail/dqn__functions.c.o[0m
+[23.465s] [  7%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/action/detail/patrol__functions.c.o[0m
+[23.970s] [  8%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/srv/detail/sound__functions.c.o[0m
+[24.207s] [  9%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/version_info__functions.c.o[0m
+[24.388s] [ 11%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/sound__functions.c.o[0m
+[24.572s] [ 12%] [32m[1mLinking C shared library libturtlebot3_msgs__rosidl_generator_c.so[0m
+[24.756s] [ 12%] Built target turtlebot3_msgs__rosidl_generator_c
+[24.811s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[27.874s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_introspection_cpp[0m
+[27.933s] [ 15%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/msg/detail/sensor_state__type_support.cpp.o[0m
+[29.099s] [ 16%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/srv/detail/sound__type_support.cpp.o[0m
+[30.317s] [ 18%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/srv/detail/dqn__type_support.cpp.o[0m
+[31.748s] [ 19%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/action/detail/patrol__type_support.cpp.o[0m
+[33.129s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/msg/detail/version_info__type_support.cpp.o[0m
+[34.361s] [ 22%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/msg/detail/sound__type_support.cpp.o[0m
+[35.430s] [ 23%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[35.768s] [ 23%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[35.812s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[39.350s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_introspection_c[0m
+[39.404s] [ 26%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/msg/detail/sensor_state__type_support.c.o[0m
+[39.533s] [ 28%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/srv/detail/dqn__type_support.c.o[0m
+[39.680s] [ 29%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/action/detail/patrol__type_support.c.o[0m
+[39.917s] [ 30%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/srv/detail/sound__type_support.c.o[0m
+[40.059s] [ 32%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/msg/detail/version_info__type_support.c.o[0m
+[40.218s] [ 33%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/msg/detail/sound__type_support.c.o[0m
+[40.335s] [ 35%] [32m[1mLinking C shared library libturtlebot3_msgs__rosidl_typesupport_introspection_c.so[0m
+[40.479s] [ 35%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[40.520s] [ 36%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[43.357s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_c[0m
+[43.428s] [ 38%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/msg/sensor_state__type_support.cpp.o[0m
+[43.548s] [ 39%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/action/patrol__type_support.cpp.o[0m
+[43.737s] [ 40%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/srv/dqn__type_support.cpp.o[0m
+[43.884s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/srv/sound__type_support.cpp.o[0m
+[44.039s] [ 43%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/msg/version_info__type_support.cpp.o[0m
+[44.175s] [ 45%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/msg/sound__type_support.cpp.o[0m
+[44.382s] [ 46%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_c.so[0m
+[44.700s] [ 46%] Built target turtlebot3_msgs__rosidl_typesupport_c
+[44.796s] [ 47%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[48.943s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[49.023s] [ 49%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/msg/detail/dds_fastrtps/sensor_state__type_support.cpp.o[0m
+[50.760s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/action/detail/dds_fastrtps/patrol__type_support.cpp.o[0m
+[53.161s] [ 52%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/srv/detail/dds_fastrtps/dqn__type_support.cpp.o[0m
+[55.160s] [ 53%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/srv/detail/dds_fastrtps/sound__type_support.cpp.o[0m
+[57.231s] [ 54%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/msg/detail/dds_fastrtps/version_info__type_support.cpp.o[0m
+[59.374s] [ 56%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/msg/detail/dds_fastrtps/sound__type_support.cpp.o[0m
+[61.240s] [ 57%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[61.724s] [ 57%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp
+[61.777s] [ 59%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[64.762s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_cpp[0m
+[64.823s] [ 60%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/msg/sensor_state__type_support.cpp.o[0m
+[66.152s] [ 61%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/action/patrol__type_support.cpp.o[0m
+[67.669s] [ 63%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/srv/dqn__type_support.cpp.o[0m
+[68.912s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/srv/sound__type_support.cpp.o[0m
+[70.214s] [ 66%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/msg/version_info__type_support.cpp.o[0m
+[71.633s] [ 67%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/msg/sound__type_support.cpp.o[0m
+[72.939s] [ 69%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_cpp.so[0m
+[73.151s] [ 69%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[73.195s] [ 70%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[76.986s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_fastrtps_c[0m
+[77.118s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/msg/detail/sensor_state__type_support_c.cpp.o[0m
+[78.829s] [ 73%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/action/detail/patrol__type_support_c.cpp.o[0m
+[80.382s] [ 74%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/srv/detail/dqn__type_support_c.cpp.o[0m
+[81.843s] [ 76%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/srv/detail/sound__type_support_c.cpp.o[0m
+[83.426s] [ 77%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/msg/detail/version_info__type_support_c.cpp.o[0m
+[84.776s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/msg/detail/sound__type_support_c.cpp.o[0m
+[86.093s] [ 80%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[86.448s] [ 80%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c
+[86.480s] [35m[1mScanning dependencies of target turtlebot3_msgs[0m
+[86.516s] [ 80%] Built target turtlebot3_msgs
+[86.553s] [35m[1mScanning dependencies of target turtlebot3_msgs__py[0m
+[86.591s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[93.889s] [ 81%] Built target turtlebot3_msgs__py
+[93.936s] [35m[1mScanning dependencies of target turtlebot3_msgs__python[0m
+[94.071s] [ 83%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/msg/_sensor_state_s.c.o[0m
+[94.555s] [ 84%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/action/_patrol_s.c.o[0m
+[95.107s] [ 85%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/srv/_dqn_s.c.o[0m
+[95.446s] [ 87%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/srv/_sound_s.c.o[0m
+[95.766s] [ 88%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/msg/_version_info_s.c.o[0m
+[96.080s] [ 90%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__python.dir/rosidl_generator_py/turtlebot3_msgs/msg/_sound_s.c.o[0m
+[96.384s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/libturtlebot3_msgs__python.so[0m
+[96.580s] [ 91%] Built target turtlebot3_msgs__python
+[96.633s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[96.724s] [ 92%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[97.176s] [ 94%] [32m[1mLinking CXX shared library rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[97.447s] [ 94%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext
+[97.480s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_c__pyext[0m
+[97.531s] [ 95%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[98.023s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[98.205s] [ 97%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext
+[98.253s] [35m[1mScanning dependencies of target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[98.336s] [ 98%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[98.781s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[98.939s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext
+[98.980s] Invoked command in '/home/veroalfa/turtlebot3_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/veroalfa/turtlebot3_ws/build/turtlebot3_msgs -- -j8 -l8
+[99.455s] Invoking command in '/home/veroalfa/turtlebot3_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/veroalfa/turtlebot3_ws/build/turtlebot3_msgs
+[99.488s] -- Install configuration: ""
+[99.488s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/ament_index/resource_index/rosidl_interfaces/turtlebot3_msgs
+[99.492s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs
+[99.492s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg
+[99.493s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/version_info.h
+[99.493s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/rosidl_generator_c__visibility_control.h
+[99.493s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sound.h
+[99.494s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sensor_state.h
+[99.494s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail
+[99.494s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__type_support.h
+[99.495s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__functions.c
+[99.496s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__type_support.h
+[99.496s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__functions.c
+[99.497s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__struct.h
+[99.497s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__functions.h
+[99.497s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__struct.h
+[99.497s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__functions.h
+[99.499s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__type_support.h
+[99.499s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__functions.h
+[99.499s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__functions.c
+[99.500s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__struct.h
+[99.500s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv
+[99.507s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/sound.h
+[99.509s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/dqn.h
+[99.509s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail
+[99.509s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__type_support.h
+[99.510s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__functions.c
+[99.510s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__struct.h
+[99.510s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__functions.h
+[99.511s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__functions.h
+[99.511s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__functions.c
+[99.512s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__struct.h
+[99.512s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__type_support.h
+[99.513s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action
+[99.513s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/patrol.h
+[99.513s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail
+[99.514s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__functions.c
+[99.514s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__type_support.h
+[99.515s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__struct.h
+[99.515s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__functions.h
+[99.515s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/library_path.sh
+[99.515s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/library_path.dsv
+[99.516s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_c.so
+[99.516s] -- Set runtime path of "/home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_c.so" to ""
+[99.517s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs
+[99.517s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg
+[99.517s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[99.518s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail
+[99.519s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_fastrtps_c.h
+[99.520s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_fastrtps_c.h
+[99.522s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_fastrtps_c.h
+[99.523s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv
+[99.524s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail
+[99.524s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_fastrtps_c.h
+[99.524s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_fastrtps_c.h
+[99.526s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action
+[99.527s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail
+[99.527s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_fastrtps_c.h
+[99.528s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_c.so
+[99.528s] -- Set runtime path of "/home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[99.529s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs
+[99.529s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg
+[99.529s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[99.530s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail
+[99.530s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_fastrtps_cpp.hpp
+[99.532s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/dds_fastrtps
+[99.533s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_fastrtps_cpp.hpp
+[99.534s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[99.534s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv
+[99.534s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail
+[99.535s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_fastrtps_cpp.hpp
+[99.535s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dds_fastrtps
+[99.535s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_fastrtps_cpp.hpp
+[99.535s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action
+[99.536s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail
+[99.536s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_fastrtps_cpp.hpp
+[99.536s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/dds_fastrtps
+[99.537s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so
+[99.537s] -- Set runtime path of "/home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[99.538s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs
+[99.538s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg
+[99.538s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[99.539s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail
+[99.540s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__type_support.c
+[99.540s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_introspection_c.h
+[99.541s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_introspection_c.h
+[99.541s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_introspection_c.h
+[99.542s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__type_support.c
+[99.542s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__type_support.c
+[99.542s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv
+[99.542s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail
+[99.543s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__type_support.c
+[99.543s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__type_support.c
+[99.543s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_introspection_c.h
+[99.543s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_introspection_c.h
+[99.544s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action
+[99.544s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail
+[99.544s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__type_support.c
+[99.544s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_introspection_c.h
+[99.545s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_c.so
+[99.545s] -- Set runtime path of "/home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_c.so" to ""
+[99.545s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_c.so
+[99.545s] -- Set runtime path of "/home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_c.so" to ""
+[99.546s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs
+[99.546s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg
+[99.546s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sensor_state.hpp
+[99.547s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sound.hpp
+[99.547s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail
+[99.547s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__struct.hpp
+[99.548s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__builder.hpp
+[99.548s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__traits.hpp
+[99.548s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__struct.hpp
+[99.556s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__traits.hpp
+[99.556s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__builder.hpp
+[99.557s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__struct.hpp
+[99.559s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__builder.hpp
+[99.560s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__traits.hpp
+[99.560s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/version_info.hpp
+[99.573s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv
+[99.576s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/sound.hpp
+[99.576s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail
+[99.576s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__struct.hpp
+[99.577s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__traits.hpp
+[99.577s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__struct.hpp
+[99.577s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__builder.hpp
+[99.577s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__builder.hpp
+[99.578s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__traits.hpp
+[99.578s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/dqn.hpp
+[99.578s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action
+[99.578s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail
+[99.578s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__traits.hpp
+[99.579s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__builder.hpp
+[99.579s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__struct.hpp
+[99.579s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/patrol.hpp
+[99.579s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs
+[99.580s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg
+[99.580s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail
+[99.580s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__type_support.cpp
+[99.580s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_introspection_cpp.hpp
+[99.580s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_introspection_cpp.hpp
+[99.581s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_introspection_cpp.hpp
+[99.581s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__type_support.cpp
+[99.581s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__type_support.cpp
+[99.581s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv
+[99.582s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail
+[99.582s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_introspection_cpp.hpp
+[99.582s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__type_support.cpp
+[99.582s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_introspection_cpp.hpp
+[99.582s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__type_support.cpp
+[99.583s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action
+[99.583s] -- Up-to-date: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail
+[99.583s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_introspection_cpp.hpp
+[99.583s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__type_support.cpp
+[99.583s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so
+[99.584s] -- Set runtime path of "/home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[99.584s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_cpp.so
+[99.584s] -- Set runtime path of "/home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_cpp.so" to ""
+[99.584s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/pythonpath.sh
+[99.585s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/pythonpath.dsv
+[99.585s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/__init__.py
+[99.737s] Compiling '/home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/__init__.py'...
+[99.761s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg
+[99.761s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_version_info.py
+[99.762s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_sensor_state.py
+[99.762s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_sound_s.c
+[99.763s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_version_info_s.c
+[99.763s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_sound.py
+[99.763s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_sensor_state_s.c
+[99.764s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/__init__.py
+[99.764s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv
+[99.764s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/_dqn_s.c
+[99.765s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/_sound_s.c
+[99.765s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/_sound.py
+[99.765s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/__init__.py
+[99.765s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/_dqn.py
+[99.766s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/action
+[99.766s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/action/_patrol.py
+[99.767s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/action/__init__.py
+[99.767s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/action/_patrol_s.c
+[99.767s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[99.768s] -- Set runtime path of "/home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[99.768s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[99.768s] -- Set runtime path of "/home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[99.769s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[99.769s] -- Set runtime path of "/home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[99.770s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__python.so
+[99.772s] -- Set runtime path of "/home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__python.so" to ""
+[99.773s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/SensorState.idl
+[99.777s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/Sound.idl
+[99.777s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/VersionInfo.idl
+[99.777s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound.idl
+[99.781s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn.idl
+[99.781s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/action/Patrol.idl
+[99.782s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/SensorState.msg
+[99.782s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/Sound.msg
+[99.783s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/VersionInfo.msg
+[99.783s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound.srv
+[99.783s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound_Request.msg
+[99.784s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound_Response.msg
+[99.785s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn.srv
+[99.785s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn_Request.msg
+[99.785s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn_Response.msg
+[99.786s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/action/Patrol.action
+[99.786s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/ament_index/resource_index/package_run_dependencies/turtlebot3_msgs
+[99.789s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/ament_index/resource_index/parent_prefix_path/turtlebot3_msgs
+[99.789s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/ament_prefix_path.sh
+[99.790s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/ament_prefix_path.dsv
+[99.792s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/path.sh
+[99.792s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/path.dsv
+[99.793s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.bash
+[99.794s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.sh
+[99.794s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.zsh
+[99.794s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.dsv
+[99.796s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.dsv
+[99.796s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/ament_index/resource_index/packages/turtlebot3_msgs
+[99.797s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_generator_cExport.cmake
+[99.797s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_generator_cExport-noconfig.cmake
+[99.797s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cExport.cmake
+[99.797s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[99.802s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cExport.cmake
+[99.802s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[99.803s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_generator_cppExport.cmake
+[99.803s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[99.803s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[99.803s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cppExport.cmake
+[99.804s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[99.805s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake-extras.cmake
+[99.805s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[99.805s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[99.806s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[99.807s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[99.807s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[99.808s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[99.810s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgsConfig.cmake
+[99.825s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgsConfig-version.cmake
+[99.825s] -- Installing: /home/veroalfa/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.xml
+[99.826s] Invoked command in '/home/veroalfa/turtlebot3_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/veroalfa/turtlebot3_ws/install/turtlebot3_teleop:/home/veroalfa/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/veroalfa/turtlebot3_ws/build/turtlebot3_msgs
