@@ -1,0 +1,5 @@
+train: ./data/goal/train/images
+val: ./data/goal/valid/images
+
+nc: 1
+names: ['goal']
