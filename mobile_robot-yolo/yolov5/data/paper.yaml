@@ -1,0 +1,5 @@
+train: ./data/paper/train/images
+val: ./data/paper/valid/images
+
+nc: 1
+names: ['paper']
